@@ -71,7 +71,7 @@ nav ul li a {
 .jumbotron-text{
     width: 50%;
     position: absolute;
-    bottom: 60px;
+    bottom: 50px;
     left: 50px;
     filter: brightness(1);
 }
@@ -79,6 +79,11 @@ nav ul li a {
 .jumbotron-text span{
     color: white;
     font-size: 18px;
+}
+
+.title{
+    font-size: 34px;
+    color: white;
 }
 
 h2{
@@ -108,13 +113,13 @@ main{
 }
 
 .section-title h2{
-    font-size: 35px;
+    font-size: 40px;
     color:black;
 }
 
 .section-title span{
     color: #858585;
-    font-size: 18px;
+    font-size: 20px;
 
 }
 .col-sx, .col-dx{
@@ -140,9 +145,14 @@ main{
     padding-top: 20px;
 }
 
+.text-col h3{
+    font-size: 20px;
+}
+
 .text-col p{
     color: #858585;
     padding-top: 10px;
+    font-size: 20px;
 }
 
 /* footer */
@@ -150,10 +160,11 @@ main{
 footer{
     text-align: center;
     margin: 40px 0;
+    font-size: 18px;
 }
 
 #heart{
     margin-left: 5px;;
-    font-size: 20px;
+    font-size: 24px;
     color:red;
 }
