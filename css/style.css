@@ -13,6 +13,9 @@ li{
     list-style: none;
 }
 
+img{
+    filter: brightness(80%);
+}
 /* header */
 
 /* logo section */
@@ -28,6 +31,7 @@ li{
 
 #logo{
     height: 70px;
+    filter: brightness(100%);
 }
 
 /* navbar-section */
@@ -55,6 +59,7 @@ nav ul li a {
     height: 500px;
     margin-top: 10px;
     background-image: url(../img/banner.jpg);
+    filter: brightness(80%);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
