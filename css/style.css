@@ -10,9 +10,20 @@
 }
 
 /* header */
-.logo{
-    background-color: blueviolet;
-    height: 70px;
+
+/* logo section */
+
+.logo-section{
+    padding: 5px;
+}
+
+.logo-container{
+    width: 160px;
+    border-right: 2px solid grey;
+}
+
+#logo{
+    height: 60px;
 }
 
 nav{
