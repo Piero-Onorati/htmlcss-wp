@@ -81,13 +81,14 @@ h2{
 
 /* section-content: leadership-section */
 
-.leadership-section{
+main{
     margin-top: 30px;
 }
 
-.section-content{
-    margin-top: 20px;
-   
+.section::after{
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .section-title{
@@ -106,29 +107,27 @@ h2{
 }
 .col-sx, .col-dx{
     width: 20%;
-    height: 50px;
-    float:left;
+    float: left;
+ 
 }
 
 .middle-content{
     margin: 0 3%;
-    height: 70px;
     width: 54%;
-    float:left;
+    float: left;   
 }
-
-.section-content::after{
-    content: '';
-    display: table;
-    clear: both;
-}
-
 
 .image-col-sx, .image-col-dx, .image-middle-content{
     width: 100%;
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
+}
+
+.section::after{
+    content: '';
+    display: table;
+    clear: both;
 }
 
 /* footer */
