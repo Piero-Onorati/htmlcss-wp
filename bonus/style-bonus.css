@@ -7,7 +7,7 @@
 .container{
     font-family:'Roboto', sans-serif;
     width: 80%;
-    margin: 20px auto;
+    margin: 30px auto;
 }
 
 li{
@@ -35,6 +35,7 @@ li{
 /* navbar-section */
 
 nav{
+    padding-left: 20px;
     height: 70px;
     line-height: 70px;
 }
@@ -49,6 +50,7 @@ nav ul li a {
     text-transform: uppercase;
     color: #858585;
     font-size: 18px;
+    font-weight: bold;
 }
 
 /* jumbotron */
@@ -143,7 +145,6 @@ main{
     object-fit: cover;
     filter: brightness(90%);
     border-radius: 10px;
-    
 }
 
 /* section item text */
