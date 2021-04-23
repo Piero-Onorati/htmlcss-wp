@@ -5,6 +5,7 @@
 }
 
 .container{
+    font-family:'Roboto', sans-serif;
     width: 80%;
     margin: 0 auto;
 }
@@ -86,14 +87,14 @@ h2{
 }
 /* main */
 
-/* section-content: leadership-section */
-
 main{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
+/* section-content: leadership-section */
+
 .section{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .section::after{
@@ -103,7 +104,7 @@ main{
 }
 
 .section-title{
-  padding: 5px 0;
+    padding: 10px 0;
 }
 
 .section-title h2{
@@ -112,7 +113,7 @@ main{
 }
 
 .section-title span{
-    color: black;
+    color: #858585;
     font-size: 18px;
 
 }
@@ -135,20 +136,20 @@ main{
     border-radius: 10px;
 }
 
-.section::after{
-    content: '';
-    display: table;
-    clear: both;
+.text-col{
+    padding-top: 20px;
 }
 
-p{
-    color: #858585
+.text-col p{
+    color: #858585;
+    padding-top: 10px;
 }
+
 /* footer */
 
 footer{
     text-align: center;
-    margin-top: 20px;
+    margin: 40px 0;
 }
 
 #heart{
