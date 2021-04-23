@@ -9,6 +9,10 @@
     margin: 0 auto;
 }
 
+li{
+    list-style: none;
+}
+
 /* header */
 
 /* logo section */
@@ -19,7 +23,7 @@
 
 .logo-container{
     width: 160px;
-    border-right: 2px solid grey;
+    border-right: 2px solid #e5e5e5;
 }
 
 #logo{
@@ -29,9 +33,23 @@
 /* navbar-section */
 
 nav{
-    background-color: brown;
     height: 70px;
+    line-height: 70px;
 }
+
+nav ul li{
+    display:inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #858585;
+    font-size: 16px;
+}
+
+/* jumbotron */
 
 .jumbotron{
     background-color: cornsilk;
