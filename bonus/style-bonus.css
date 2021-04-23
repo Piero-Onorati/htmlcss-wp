@@ -14,9 +14,6 @@ li{
     list-style: none;
 }
 
-img{
-    filter: brightness(80%);
-}
 /* header */
 
 /* logo section */
@@ -63,9 +60,10 @@ nav ul li a {
 
 #banner{
     width: 100%;
-    height: 400px;
+    height: 450px;
     object-fit: cover;
-    border-radius: 10px; 
+    border-radius: 10px;
+    filter: brightness(70%);
 }
 
 .jumbotron-text{
@@ -135,3 +133,19 @@ main{
 .dx-item{
     margin-left: 2%;
 }
+
+.image-item{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(90%)
+}
+
+.section-item h3{
+    font-size: 20px;
+}
+
+.section-item p{
+    font-size: 18px;
+}
+
