@@ -46,15 +46,35 @@ nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
     color: #858585;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /* jumbotron */
 
 .jumbotron{
-    background-color: cornsilk;
     height: 500px;
     margin-top: 10px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;   
+}
+
+.jumbotron-text{
+    width: 50%;
+    position: absolute;
+    bottom: 60px;
+    left: 50px;
+}
+
+.jumbotron-text span{
+    color: white;
+    font-size: 18px;
+}
+
+h2{
+    color: white;
+    font-size: 35px ;
 }
 /* main */
 
