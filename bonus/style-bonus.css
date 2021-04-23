@@ -5,10 +5,9 @@
 }
 
 .container{
-    background-color: blue;
     font-family:'Roboto', sans-serif;
     width: 80%;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 li{
@@ -64,7 +63,7 @@ nav ul li a {
 
 #banner{
     width: 100%;
-    height: 500px;
+    height: 400px;
     object-fit: cover;
     border-radius: 10px; 
 }
@@ -97,3 +96,42 @@ main{
     margin-top: 20px;
 }
 
+.section-title h2{
+    font-size: 40px;
+    color:black;
+}
+
+.section-title span{
+    color: #858585;
+    font-size: 20px;
+
+}
+
+/* section-item */
+
+.section-content::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.section-item{
+    background-color: blue;
+    height: 200px;
+    width: calc(92% / 3);
+    float:left
+}
+
+.middle-item{
+    background-color: brown;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.sx-item{
+    margin-right: 2%;
+}
+
+.dx-item{
+    margin-left: 2%;
+}
