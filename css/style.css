@@ -4,10 +4,41 @@
     box-sizing: border-box;
 }
 
-/* header */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
 
+/* header */
+.logo{
+    background-color: blueviolet;
+    height: 70px;
+}
+
+nav{
+    background-color: brown;
+    height: 70px;
+}
+
+.jumbotron{
+    background-color: cornsilk;
+    height: 500px;
+    margin-top: 10px;
+}
 /* main */
+
+main{
+    background-color: darkmagenta;
+    height: 500px;
+    margin-top: 20px;;
+}
 
 /* section-content */
 
 /* footer */
+
+footer{
+    background-color: darksalmon;
+    height: 30px;
+    margin-top: 20px;
+}
