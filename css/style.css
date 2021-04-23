@@ -79,35 +79,42 @@ h2{
 }
 /* main */
 
+/* section-content: leadership-section */
+
 .leadership-section{
-    background-color: darkmagenta;
-    height: 500px;
     margin-top: 30px;
 }
 
-.section-title{
-    background-color: gold;
-    height: 70px;
+.section-content{
+    margin-top: 20px;
+   
 }
 
+.section-title{
+  padding: 5px 0;
+}
+
+.section-title h2{
+    font-size: 35px;
+    color:black;
+}
+
+.section-title span{
+    color: black;
+    font-size: 18px;
+
+}
 .col-sx, .col-dx{
-    background-color: greenyellow;
     width: 20%;
     height: 50px;
     float:left;
 }
 
 .middle-content{
-    background-color: green;
     margin: 0 3%;
     height: 70px;
     width: 54%;
     float:left;
-}
-
-.section-content{
-    margin-top: 20px;
-    border: 10px solid red;
 }
 
 .section-content::after{
@@ -116,7 +123,13 @@ h2{
     clear: both;
 }
 
-/* section-content */
+
+.image-col-sx, .image-col-dx, .image-middle-content{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
 
 /* footer */
 
